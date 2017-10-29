@@ -14,3 +14,16 @@ php artisan key:generate
 
 # laravel server with default port 8000
 php artisan serve
+
+# generate model with migration
+
+php artisan make:model Product --migration
+
+# run migaration
+php artisan migrate
+
+# add controller with resource
+php artisan make:controller ProductController -r
+
+# list route
+php artisan route:list
